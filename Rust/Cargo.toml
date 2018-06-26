@@ -1,0 +1,11 @@
+[package]
+name = "call_from_unity"
+version = "0.1.0"
+authors = ["Giorgio Pomettini <giorgio.pomettini@gmail.com>"]
+
+[lib]
+name="call_rust"
+crate-type = ["dylib"]
+
+[build]
+rustflags = ["-C target-cpu=native"]
