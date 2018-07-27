@@ -9,3 +9,6 @@ crate-type = ["dylib"]
 
 [build]
 rustflags = ["-C target-cpu=native"]
+
+[dependencies]
+libc = "0.2"

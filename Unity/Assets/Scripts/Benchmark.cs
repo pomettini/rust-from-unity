@@ -9,9 +9,9 @@ using System.Diagnostics;
 public class Benchmark : MonoBehaviour 
 {
 	[DllImport("call_rust")]
-	private static extern UInt64 rust_fibonacci (int n);
+	private static extern UInt64 rust_fibonacci(int n);
 	
-	private static UInt64 CSharpFibonacci (int n)
+	private static UInt64 CSharpFibonacci(int n)
 	{
 		int i = 0;
 		UInt64 sum = 0;
